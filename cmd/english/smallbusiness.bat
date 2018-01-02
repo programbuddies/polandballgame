@@ -50,6 +50,19 @@ exit
 
 :alienroute
 cls
+echo 6ball (1): CAPTAIN! FOUND A PLANET WITH PEOPLE
+pause >nul
+echo 6ball (2): Hmm, There...
+pause >nul
+echo 6ball (2): Let them build pyramids
+pause >nul
+echo SOME TIME LATER.....
+pause >nul
+echo Ancient Egyptball: ?, 
+pause >nul
+echo 6ball (2): Build Pyramids for us.
+pause >nul
+cls
 echo Sorry! We are still working here!
 pause >nul
 exit
