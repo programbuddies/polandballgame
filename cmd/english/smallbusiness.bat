@@ -86,7 +86,11 @@ if %alienroute% == 2 goto pyramids
 	pause >nul
 	echo 6ball (2): Build Pyramids for us.
 	pause >nul
-	echo ACHIEVEMENT UNLOCKED: PYRAMIDS
+	echo ACHIEVEMENT UNLOCKED: PYRAMID BUSINESS
+	pause >nul
+	echo Trilluminati: Oh hey. Nice pyramids there.
+	pause >nul
+	echo Trilluminati: See ya.
 	pause >nul
 	cls
 	echo Sorry! We are still working here!
