@@ -1,4 +1,0 @@
-1) Complete CMD (English) Version
-2) Expand to Russian, Chinese, Spanish, Portuguese, German, French and Dutch languages
-3) Expand to Other Coding Languages
-4) Expand to Russian, Chinese, Spanish, Portuguese, German, French and Dutch languages
