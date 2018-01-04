@@ -13,7 +13,7 @@ if %chooseball% == 2 goto whiteroute
 if %chooseball% == 3 goto indianroute
 if %chooseball% == 4 goto oldroute
 if %chooseball% == 5 goto aussieroute
-if %chooseball% == 6 goto alienroute
+if %chooseball% == 6 goto alienroutewarn
 if %chooseball% == 7 goto islandroute
 if %chooseball% == 8 goto africaroute
 goto chooseball
@@ -48,13 +48,22 @@ echo Sorry! We are still working here!
 pause >nul
 exit
 
+:alienroutewarn
+cls
+echo WARNING:
+echo The following is not a canon part of the game.
+echo Even though it is in the game.
+echo It's meant as a joke.
+echo So do not take everything as the following serious.
+echo 
+
 :alienroute
 cls
 echo 6ball (1): CAPTAIN! FOUND A PLANET WITH PEOPLE
 pause >nul
 echo 6ball (2): Hmm, Them...
 pause >nul
-echo 6ball (2): Should we let those build pyramids?
+echo 14ball: Should we let those build pyramids?
 pause >nul
 echo EVENT:
 echo 1) Don't
@@ -64,11 +73,11 @@ if %alienroute% == 1 goto no_pyramids
 if %alienroute% == 2 goto pyramids
 
 	:no_pyramids
-	echo 6ball (2): Naah, we don't do slavery
+	echo 14ball: Naah, we don't do slavery
 	pause >nul
-	echo Trilluminti: Hey 6ball, erm... Why didn't you let them do slavery?
+	echo Trilluminti: Hey 614ball, erm... Why didn't you let them do slavery?
 	pause >nul
-	echo -trilluminati blows 6ball up-
+	echo -trilluminati blows 6balls & 14balls up-
 	pause >nul
 	echo GAME OVER
 	pause >nul
@@ -78,13 +87,13 @@ if %alienroute% == 2 goto pyramids
 	if %no_pyramids% == 2 exit
 
 	:pyramids
-	echo 6ball (2): Let them build pyramids
+	echo 6ball (3): Let them build pyramids
 	pause >nul
 	echo SOME TIME LATER.....
 	pause >nul
 	echo Ancient Egyptball: ?, 
 	pause >nul
-	echo 6ball (2): Build Pyramids for us.
+	echo 14ball (1): Build Pyramids for us.
 	pause >nul
 	echo ACHIEVEMENT UNLOCKED: PYRAMID BUSINESS
 	pause >nul
