@@ -1,5 +1,6 @@
 @echo OFF
 color cf
+title PolandBall Adventure
 
 :chooseball
 cls
