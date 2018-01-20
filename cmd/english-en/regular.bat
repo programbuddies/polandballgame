@@ -11,7 +11,7 @@ set /p chooseball=Choice:
 
 if %chooseball% == 1 goto asiaroute
 if %chooseball% == 2 goto whiteroute
-if %chooseball% == 3 goto indianroute
+if %chooseball% == 3 goto lakotahroute
 if %chooseball% == 4 goto oldroute
 if %chooseball% == 5 goto aussieroute
 if %chooseball% == 6 goto alienroute
@@ -31,7 +31,7 @@ echo Sorry! We are sttll working here!
 pause >nul
 exit
 
-:indianroute
+:lakotahroute
 cls
 echo Sorry! We are sttll working here!
 pause >nul
